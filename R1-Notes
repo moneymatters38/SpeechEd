@@ -1,0 +1,44 @@
+introducing speeched
+  -android based application for analysis of audio waveforms.
+  -allows you to :
+    -generate waveforms from a variety of audio formats : wav, riff, mp3 and more
+	-zoom into/out of waveform for detailed analysis
+	-play select sections, waveform displayed dynamically
+	-annotate regions of interest
+	-store subsections of audio file
+	-and much more!
+
+why go mobile?
+  -accessibility
+  -reach
+  -android!
+
+why should you care
+  -speech analysis
+  -even tuning your guitar or learning a new language! : maintain an audio diary
+  documenting each language lesson. Analyse how close you're getting to the optimal/
+  target waveform. (are you listening, sharad gupta and co?)
+
+design principles
+  -iterative incremental model
+  -android is terrible at MVC. android's API philosophy is template/inheritance
+  over composition; which makes it bad for testing too. That being said, there
+  are ways to get MVC out of android, but it is not intuitive.
+  -5 major components, specified in design doc.
+  -minimal, intutive ui, complying with the android ui design guidelines.
+
+ENOUGH WITH THE TALK ALREADY! *cue for product demo*
+
+testing
+  -comprehensive unit testing
+  -acceptance testing (refer updated testplan)
+  -robotium, alpha testing
+
+known bugs
+  -player unresponsive to dynamic change in marker positions
+
+watch out for
+  -updated mediaplayer controls
+  -taggin system
+  -precaching to improve loading times
+  -arbitrary zooming, pinch to zoom.

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ Copyright © 2012 SSAD Team 37
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical">
+
+    <TextView
+       android:text="@string/what_to_do_with_ringtone"
+       android:textColor="#894343"
+       android:textSize="14sp"
+       android:layout_marginLeft="15sp"
+       android:layout_marginTop="15sp"
+       android:layout_marginRight="15sp"
+       android:layout_marginBottom="15sp"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content" />
+
+      <Button android:id="@+id/button_make_default"
+         android:text="@string/make_default_ringtone_button"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15sp"
+	 android:layout_marginTop="10sp"
+	 android:layout_marginRight="15sp" />
+
+      <Button android:id="@+id/button_choose_contact"
+         android:text="@string/choose_contact_ringtone_button"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15sp"
+	 android:layout_marginTop="10sp"
+	 android:layout_marginRight="15sp" />
+
+      <Button android:id="@+id/button_do_nothing"
+         android:text="@string/do_nothing_with_ringtone_button"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15sp"
+	 android:layout_marginTop="20sp"
+	 android:layout_marginRight="15sp"
+         android:layout_marginBottom="15sp" />
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+# view AndroidManifest.xml #generated:69
+-keep class com.SpeechEd.ChooseContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.SpeechEd.SpeechEdEditActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.SpeechEd.SpeechEdSelectActivity { <init>(...); }
+
+# view res/layout/editor.xml #generated:36
+# view res/layout/editor.xml #generated:43
+-keep class com.ringdroid.MarkerView { <init>(...); }
+
+# view res/layout/editor.xml #generated:32
+-keep class com.ringdroid.WaveformView { <init>(...); }
+

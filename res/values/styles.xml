@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+Copyright © 2012 SSAD Team 37
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+*/
+-->
+
+<resources>
+
+  <style name="AudioFileInfoOverlayText">
+    <item name="android:paddingLeft">4px</item>
+    <item name="android:paddingBottom">4px</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:textSize">12sp</item>
+    <item name="android:shadowColor">#9B3737</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item>
+    <item name="android:focusable">true</item>
+  </style>
+
+  <style name="ToolbarBackground">
+    <item name="android:background">#F4F4F4</item>
+  </style>
+
+  <style name="ChooseContactBackground">
+    <item name="android:background">#F4F4F4</item>
+  </style>
+
+  <style name="VerticalDividerForList">
+    <item name="android:background">#F4F4F4</item>
+    <item name="android:layout_width">1px</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_marginLeft">4px</item>
+    
+  </style>
+
+  <style name="VerticalDividerLeft">
+    <item name="android:layout_width">1px</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_marginLeft">4px</item>
+    <item name="android:background">#F4F4F4</item>
+  </style>
+  
+  <style name="VerticalDividerRight">
+    <item name="android:layout_width">1px</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_marginRight">4px</item>
+    <item name="android:background">#F4F4F4</item>
+  </style>
+
+  <style name="HorizontalDividerTop">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:background">#F4F4F4</item>
+  </style>
+  <style name="HorizontalDividerBottom">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:background">#F4F4F4</item>
+  </style>
+
+</resources>
